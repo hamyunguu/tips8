@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="image/png" href="%sveltekit.assets%/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="%sveltekit.assets%/favicon.svg" />
+		<link rel="shortcut icon" href="%sveltekit.assets%/favicon.ico" />
+		<link rel="apple-touch-icon" href="%sveltekit.assets%/apple-touch-icon.png" sizes="180x180" />
+		<link rel="manifest" href="%sveltekit.assets%/site.webmanifest" />
+		<meta name="description" content="Interactive WebGL experience to explore the books of workroom press." />
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="Book Atlas®" />
+		<meta property="og:title" content="Book Atlas®" />
+		<meta property="og:description" content="Interactive WebGL experience to explore the books of workroom press." />
+		<meta name="apple-mobile-web-app-title" content="Book Atlas®" />
+		<title>Book Atlas®</title>
+		<style>
+			@font-face {
+				font-family: 'PP Neue Montreal';
+				src:
+					url('%sveltekit.assets%/fonts/pp-neue-montreal-regular.woff2') format('woff2'),
+					url('%sveltekit.assets%/fonts/pp-neue-montreal-regular.woff') format('woff');
+				font-weight: 400;
+				font-style: normal;
+				font-display: swap;
+			}
+		</style>
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
